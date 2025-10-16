@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Checkout - College Canteen</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>PLACE ORDER</h1>
+    <nav>
+      <a href="index.html">Menu</a>
+      <a href="cart.html">Cart</a>
+    </nav>
+  </header>
+
+  <main class="checkout">
+    <h2>Enter Your Details</h2>
+    <form id="checkoutForm">
+      <label>Name:</label>
+      <input type="text" required />
+
+      <label>Roll Number:</label>
+      <input type="text" required />
+
+      <label>Payment Method:</label>
+      <select required>
+        <option value="">Select</option>
+        <option>Cash on Delivery</option>
+        <option>UPI</option>
+      </select>
+
+      <button type="submit" class="btn">Place Order</button>
+    </form>
+    <p id="confirmationMsg"></p>
+  </main>
+
+  <footer>
+    <hr>
+    <hr>
+    <p>&copy; 2025 College Canteen | All rights reserved.</p>
+    <hr>
+    <hr>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
